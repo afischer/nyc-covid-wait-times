@@ -2,6 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const axios = require("axios");
 const pdfParse = require("pdf-parse");
+const dateFns = require("date-fns")
 
 
 const PDF_URL = "https://hhinternet.blob.core.windows.net/wait-times/testing-wait-times.pdf";
@@ -15,11 +16,32 @@ async function run() {
   })
 
   const parsedData = await pdfParse(req.data);
+  // TODO: Save immediately and rename so we don't lose data
 
   const {text} = parsedData;
 
   const [refreshTsText] = text.match(/refresh timestamp:\n.*[AP]M/gim)
-  const timestamp = refreshTsText.replace(/refresh timestamp:\n/gim, '').replace(/\//g, '-')
+  const timestamp = refreshTsText.replace(/refresh timestamp:\n/gim, '')
+
+  // attempt to nicely parse timestamp
+  // try {
+  //   console.log(timestamp);
+  //   const parsed = dateFns.parse(timestamp, 'M/d/yyyy h:mm:ss a', new Date())
+  //   console.log(parsed)
+  // } catch (error) {
+  //   console.error('could not clean up date', error)
+  // }
+
+  const filename = timestamp.replace(/\//g, '-').replace(/\s+/g, '_');
+
+  // write out PDF
+  await fs.writeFile(path.join(__dirname, `data/pdfs/${filename}.pdf`), req.data);
+
+  // if all sites are closed, save PDF and exit early
+  const [closedText] = text.match(/sites are currently closed/gim)
+  if (closedText) {
+    return console.info('all sites closed');
+  }
 
   // this text comes immediately before the list of locations
   const [windowText] = text.match(/changed since last reported.*\n/gim)
@@ -38,12 +60,16 @@ async function run() {
     if (/last reported/ig.test(locationWaits[i])) i += 1;
   }
 
-  // write pdf, json file
-  const filename = timestamp.replace(/\s+/g, '_');
-  const outData = JSON.stringify(waitTimes, null, 2)
-  await fs.writeFile(path.join(__dirname, `data/pdfs/${filename}.pdf`), req.data);
+  // sort keys in alphabetical order
+  const sorted = {}
+  Object.keys(waitTimes).sort().forEach(function(key) {
+    sorted[key] = waitTimes[key];
+  });
+
+  // write json files
+  const outData = JSON.stringify(sorted, null, 2)
   await fs.writeFile(path.join(__dirname, `data/${filename}.json`), outData);
   await fs.writeFile(path.join(__dirname, `data/latest.json`), outData);
 }
 
-run().catch(err => {throw err});
+run().catch(err => console.error(err));
