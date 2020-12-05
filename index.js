@@ -3,7 +3,9 @@ const path = require('path');
 const axios = require("axios");
 const pdfParse = require("pdf-parse");
 const dateFns = require("date-fns")
+const crypto = require('crypto');
 
+const md5 = (str) => crypto.createHash('md5').update(str).digest('hex')
 
 const PDF_URL = "https://hhinternet.blob.core.windows.net/wait-times/testing-wait-times.pdf";
 
@@ -15,10 +17,23 @@ async function run() {
     responseType: "arraybuffer",
   })
 
+  const scrapeTime = new Date().toISOString();
   const parsedData = await pdfParse(req.data);
-  // TODO: Save immediately and rename so we don't lose data
 
   const {text} = parsedData;
+
+  // get hash of text, check if file exists, and if not write out file and continue
+  const hash = md5(text)
+
+  const files = await fs.readdir(path.join(__dirname, 'data/pdfs'))
+  files.forEach(filename => {
+    if (filename.includes(hash)) {
+      console.info(hash, 'Duplicate data scraped. Exiting...');
+      process.exit(0);
+    }
+  })
+
+  await fs.writeFile(path.join(__dirname, `data/pdfs/${scrapeTime}-${hash}.pdf`), req.data);
 
   // older dashboards had "refreshed at" times, seems to have been removed
   const [refreshTsText] = text.match(/refresh timestamp:\n.*[AP]M/gim) || [];
@@ -78,7 +93,7 @@ async function run() {
 
   // write json files
   const outData = JSON.stringify(sorted, null, 2)
-  await fs.writeFile(path.join(__dirname, `data/${filename}.json`), outData);
+  await fs.writeFile(path.join(__dirname, `data/${scrapeTime}-${hash}.json`), outData);
   await fs.writeFile(path.join(__dirname, `data/latest.json`), outData);
 }
 
