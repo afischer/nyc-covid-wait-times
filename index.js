@@ -55,9 +55,6 @@ async function run() {
 
   const filename = timestamp.replace(/\//g, '-').replace(/\s+/g, '_');
 
-  // write out PDF
-  await fs.writeFile(path.join(__dirname, `data/pdfs/${filename}.pdf`), req.data);
-
   // if all sites are closed, save PDF and exit early
   const [closedText] = text.match(/sites are currently closed/gim) || []
   if (closedText) {
