@@ -20,8 +20,14 @@ async function run() {
 
   const {text} = parsedData;
 
-  const [refreshTsText] = text.match(/refresh timestamp:\n.*[AP]M/gim)
-  const timestamp = refreshTsText.replace(/refresh timestamp:\n/gim, '')
+  // older dashboards had "refreshed at" times, seems to have been removed
+  const [refreshTsText] = text.match(/refresh timestamp:\n.*[AP]M/gim) || [];
+  // the time frame window at top
+  const timeWindowRe = /\d+\/\d+\/2020\s+\|\s+\d+:\d+(:\d+)? [AP]M/gim
+  const [timeWindowText] = text.match(timeWindowRe) || []
+  const timestamp = (
+    refreshTsText ? refreshTsText : timeWindowText
+  ).replace(/refresh timestamp:\n/gim, '').replace('|', '')
 
   // attempt to nicely parse timestamp
   // try {
@@ -46,18 +52,22 @@ async function run() {
   // this text comes immediately before the list of locations
   const [windowText] = text.match(/changed since last reported.*\n/gim)
   // find location where text for wait times start plus 1 for newline
-  const locationOffset = text.indexOf(windowText) + windowText.length;
+  // const locationOffset = text.indexOf(windowText) + windowText.length;
 
   // pattern here is $LOCATION\n$WAIT_TIME\n
-  const locationWaits = text.substr(locationOffset).split('\n');
+  const locationWaits = text.split('\n')//.substr(locationOffset).split('\n');
 
   let i = 0
   const waitTimes = {}
   while (locationWaits.length > i) {
+    while (locationWaits[i] === '') i += 1;
+    console.log('checking', locationWaits[i]);
     waitTimes[locationWaits[i]] = locationWaits[i + 1].replace('*', '');
     i += 2;
     // if there is a last updated time, skip it
     if (/last reported/ig.test(locationWaits[i])) i += 1;
+    // HACK: if this is a newer dashboard and the text is parsed to the end, end it
+    if (timeWindowRe.test(locationWaits[i])) i = locationWaits.length;
   }
 
   // sort keys in alphabetical order
