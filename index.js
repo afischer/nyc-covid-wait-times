@@ -65,7 +65,7 @@ async function run() {
   }
 
   // this text comes immediately before the list of locations
-  const [windowText] = text.match(/changed since last reported.*\n/gim)
+  const [windowText] = text.match(/changed since last reported.*\n/gim) || []
   // find location where text for wait times start plus 1 for newline
   // const locationOffset = text.indexOf(windowText) + windowText.length;
 
@@ -76,7 +76,6 @@ async function run() {
   const waitTimes = {}
   while (locationWaits.length > i) {
     while (locationWaits[i] === '') i += 1;
-    console.log('checking', locationWaits[i]);
     waitTimes[locationWaits[i]] = locationWaits[i + 1].replace('*', '');
     i += 2;
     // if there is a last updated time, skip it
