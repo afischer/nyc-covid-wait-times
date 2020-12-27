@@ -12,13 +12,13 @@ here --- I haven't touched the repo in a few weeks and it's scraping along just 
 
 ## Project Structure
 
-```
+```text
 ├── README.md
 ├── bin // some one-off scripts and tools
 │   └── ...
 ├── data
 │   ├── TIMESTAMP-MD5.json
-│   ├── ... // all JSON output from each parsed PDF
+│   ├── timeseries.csv // CSV containing a row for each scrape output
 │   ├── latest.json // the most up-to-date scraped data
 │   └── pdfs
 │       ├── TIMESTAMP-MD5.pdf
@@ -37,12 +37,15 @@ here --- I haven't touched the repo in a few weeks and it's scraping along just 
 - On 12/5, it appears the dashboard came out of "beta" and they removed the "last updated" time. All
   files were renamed to the format `$SCRAPE_TIME_UTC-$MD5_HASH` in order to preserve all versions of
   the PDF files.
+- On 12/27, I updated updated the scrape function to output normalize location names and times,
+  added a CSV timeseries output, and stopped writing individual JSON files for each scrape run. A 
+  one-off script was used to generate this file, and it is updated each scrape.
+  - All times are now in minutes. A `NR` value explicitly means "not reporting."
+  - The individual `$TIMESTAMP-$MD5.JSON` files will soon be removed, keeping them for now in case 
+    of disaster. The PDF files will be left alone.
 
 ## To Do
 
-- Ditch the timestamped JSON files for a `latest.json` and a `timeseries.csv`, which will have one row per scrape
-- Normalize the poorly OCR-ed names/cut off names to something human readable
-- Normalize times to minute ranges
 - Figure out why the cron scrape job seems to run at random times
 - Consider scraping "last updated" times? Low priority.
 
