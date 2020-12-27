@@ -2,12 +2,15 @@ const fs = require('fs').promises;
 const path = require('path');
 const axios = require("axios");
 const pdfParse = require("pdf-parse");
-const dateFns = require("date-fns")
+const papa = require("papaparse")
 const crypto = require('crypto');
+
+const { getCleanName, getNormalizedTime } = require('./util')
 
 const md5 = (str) => crypto.createHash('md5').update(str).digest('hex')
 
 const PDF_URL = "https://hhinternet.blob.core.windows.net/wait-times/testing-wait-times.pdf";
+const CSV_PATH = path.join(__dirname, `data/timeseries.csv`)
 
 async function run() {
 
@@ -20,7 +23,7 @@ async function run() {
   const scrapeTime = new Date().toISOString();
   const parsedData = await pdfParse(req.data);
 
-  const {text} = parsedData;
+  const { text } = parsedData;
 
   // get hash of text, check if file exists, and if not write out file and continue
   const hash = md5(text)
@@ -44,15 +47,6 @@ async function run() {
     refreshTsText ? refreshTsText : timeWindowText
   ).replace(/refresh timestamp:\n/gim, '').replace('|', '')
 
-  // attempt to nicely parse timestamp
-  // try {
-  //   console.log(timestamp);
-  //   const parsed = dateFns.parse(timestamp, 'M/d/yyyy h:mm:ss a', new Date())
-  //   console.log(parsed)
-  // } catch (error) {
-  //   console.error('could not clean up date', error)
-  // }
-
   const filename = timestamp.replace(/\//g, '-').replace(/\s+/g, '_');
 
   // if all sites are closed, save PDF and exit early
@@ -73,7 +67,9 @@ async function run() {
   const waitTimes = {}
   while (locationWaits.length > i) {
     while (locationWaits[i] === '') i += 1;
-    waitTimes[locationWaits[i]] = locationWaits[i + 1].replace('*', '');
+    const cleanName = getCleanName(locationWaits[i])
+    const cleanTime = getNormalizedTime(locationWaits[i + 1].replace('*', ''))
+    waitTimes[cleanName] = cleanTime;
     i += 2;
     // if there is a last updated time, skip it
     if (/last reported/ig.test(locationWaits[i])) i += 1;
@@ -83,14 +79,21 @@ async function run() {
 
   // sort keys in alphabetical order
   const sorted = {}
-  Object.keys(waitTimes).sort().forEach(function(key) {
+  Object.keys(waitTimes).sort().forEach(function (key) {
     sorted[key] = waitTimes[key];
   });
 
   // write json files
   const outData = JSON.stringify(sorted, null, 2)
-  await fs.writeFile(path.join(__dirname, `data/${scrapeTime}-${hash}.json`), outData);
+  // await fs.writeFile(path.join(__dirname, `data/${scrapeTime}-${hash}.json`), outData);
   await fs.writeFile(path.join(__dirname, `data/latest.json`), outData);
+
+
+  // write timeseries line
+  const csvText = await fs.readFile(CSV_PATH, 'utf-8');
+  const { data: csvData } = papa.parse(csvText, { header: true })
+  csvData.push({ timestamp: scrapeTime, hash, ...sorted })
+  await fs.writeFile(CSV_PATH, papa.unparse(csvData))
 }
 
 run().catch(err => console.error(err));

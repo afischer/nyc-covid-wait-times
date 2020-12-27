@@ -2,7 +2,7 @@
 
 This repo contains scraped data for wait times at the 56 NYC Health + Hospitals-run COVID-19
 testing locations. For more information, see http://testandtrace.nyc. More information on these
-locations can be found [here](https://www.nychealthandhospitals.org/health_care/).
+locations can be found [here](https://www.nychealthandhospitals.org/covid-19-testing-sites/).
 
 It's worth noting that *this code is pretty gross.* It was written quickly after work one day to
 make sure I was saving the data, and then hastily updated when the format of ther PDFs changed to
