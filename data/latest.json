@@ -1,5 +1,5 @@
 {
-  "196 Albany": "0",
+  "196 Albany": ">120",
   "4101 White Plains Road": "0-30",
   "57 Cleveland Place": "0-30",
   "Bathgate Contract Postal Station": "0-30",
@@ -8,7 +8,7 @@
   "Bellevue Hospital": "NR",
   "Belvis DTC": "90-120",
   "Bensonhurst 14th Avenue": "0",
-  "Brooklyn Army Terminal": "60-90",
+  "Brooklyn Army Terminal": "90-120",
   "Canarsie Municipal Lot": "0",
   "Co-op City Retail Space": "60-90",
   "Coney Island Hospital": "NR",
@@ -38,7 +38,7 @@
   "Mt. Loretto Sportsplex": "60-90",
   "North Central Bronx Hospital": "60-90",
   "Northern Boulevard": "0-30",
-  "Old Broadway": "0-30",
+  "Old Broadway": "0",
   "Queens Hospital Center": "90-120",
   "Rain Boston Road Senior Center": "0-30",
   "Red Hook Recreation Center": "60-90",
@@ -51,7 +51,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "60-90",
+  "Windsor Park Library": "90-120",
   "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
