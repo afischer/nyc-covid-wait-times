@@ -1,6 +1,6 @@
 {
-  "196 Albany": "0",
-  "4101 White Plains Road": "0",
+  "196 Albany": "60-90",
+  "4101 White Plains Road": "0-30",
   "57 Cleveland Place": "0-30",
   "Bathgate Contract Postal Station": "0-30",
   "Bay Ridge 5th Avenue": "NR",
@@ -18,7 +18,7 @@
   "Edward Grant": ">120",
   "Elmhurst Hospital": "90-120",
   "Fort Hamilton": "60-90",
-  "Gouverneur Healthcare": "60-90",
+  "Gouverneur Healthcare": "30-60",
   "Greenbelt Recreation Center": "30-60",
   "Harlem Hospital Center": "30-60",
   "Highbridge Pool": "NR",
@@ -27,7 +27,7 @@
   "Jacobi Medical Center": "30-60",
   "Jonathan Williams Houses": "30-60",
   "Kew Gardens": "30-60",
-  "Kings County Hospital": "30-60",
+  "Kings County Hospital": "0-30",
   "LaGuardia Airport": "NR",
   "Lefferts": "90-120",
   "Lincoln Medical Center": "0-30",
@@ -41,7 +41,7 @@
   "Old Broadway": "0-30",
   "Queens Hospital Center": "30-60",
   "Rain Boston Road Senior Center": "0-30",
-  "Red Hook Recreation Center": "90-120",
+  "Red Hook Recreation Center": "30-60",
   "Sorreno Recreation Center": "NR",
   "St. Albans": "NR",
   "St. George Ferry Terminal": "30-60",
@@ -52,6 +52,6 @@
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Windsor Park Library": "90-120",
-  "Woodhull Medical Center": "NR",
+  "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
