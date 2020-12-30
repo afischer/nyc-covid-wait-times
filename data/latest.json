@@ -1,5 +1,5 @@
 {
-  "196 Albany": "60-90",
+  "196 Albany": "90-120",
   "4101 White Plains Road": "0-30",
   "57 Cleveland Place": "0-30",
   "Bathgate Contract Postal Station": "0-30",
@@ -7,7 +7,7 @@
   "Beach 39th": "90-120",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "90-120",
-  "Bensonhurst 14th Avenue": "NR",
+  "Bensonhurst 14th Avenue": ">120",
   "Brooklyn Army Terminal": "0-30",
   "Canarsie Municipal Lot": "0",
   "Co-op City Retail Space": "60-90",
