@@ -3,7 +3,7 @@
   "4101 White Plains Road": "30-60",
   "57 Cleveland Place": "NR",
   "Bathgate Contract Postal Station": "NR",
-  "Bay Ridge 5th Avenue": ">120",
+  "Bay Ridge 5th Avenue": "0",
   "Beach 39th": "30-60",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "30-60",
@@ -47,11 +47,11 @@
   "St. George Ferry Terminal": "30-60",
   "St. James Recreation Center": "NR",
   "St. Nicholas CHC": "NR",
-  "Starret City": "0-30",
+  "Starret City": "30-60",
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Windsor Park Library": "90-120",
-  "Woodhull Medical Center": "0-30",
+  "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
