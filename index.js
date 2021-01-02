@@ -38,16 +38,10 @@ async function run() {
 
   await fs.writeFile(path.join(__dirname, `data/pdfs/${scrapeTime}-${hash}.pdf`), req.data);
 
-  // older dashboards had "refreshed at" times, seems to have been removed
-  const [refreshTsText] = text.match(/refresh timestamp:\n.*[AP]M/gim) || [];
   // the time frame window at top
-  const timeWindowRe = /\d+\/\d+\/2020\s+\|\s+\d+:\d+(:\d+)? [AP]M/gim
-  const [timeWindowText] = text.match(timeWindowRe) || []
-  const timestamp = (
-    refreshTsText ? refreshTsText : timeWindowText
-  ).replace(/refresh timestamp:\n/gim, '').replace('|', '')
+  const timeWindowRe = /\d+\/\d+\/202\d\s+\|\s+\d+:\d+(:\d+)? [AP]M/gim
 
-  const filename = timestamp.replace(/\//g, '-').replace(/\s+/g, '_');
+  // const filename = timestamp.replace(/\//g, '-').replace(/\s+/g, '_');
 
   // if all sites are closed, save PDF and exit early
   const [closedText] = text.match(/sites are currently closed/gim) || []
@@ -55,13 +49,8 @@ async function run() {
     return console.info('all sites closed');
   }
 
-  // this text comes immediately before the list of locations
-  const [windowText] = text.match(/changed since last reported.*\n/gim) || []
-  // find location where text for wait times start plus 1 for newline
-  // const locationOffset = text.indexOf(windowText) + windowText.length;
-
   // pattern here is $LOCATION\n$WAIT_TIME\n
-  const locationWaits = text.split('\n')//.substr(locationOffset).split('\n');
+  const locationWaits = text.split('\n')
 
   let i = 0
   const waitTimes = {}
