@@ -1,7 +1,7 @@
 {
   "196 Albany": "30-60",
-  "4101 White Plains Road": "NR",
-  "57 Cleveland Place": "NR",
+  "4101 White Plains Road": "0-30",
+  "57 Cleveland Place": "0-30",
   "Bathgate Contract Postal Station": "0",
   "Bay Ridge 5th Avenue": "NR",
   "Beach 39th": "NR",
@@ -14,11 +14,11 @@
   "Coney Island Hospital": "NR",
   "Cumberland DTC": "NR",
   "Dyckman Clinica de Las Americas": "NR",
-  "East New York DTC": "NR",
+  "East New York DTC": "0",
   "Edward Grant": "NR",
-  "Elmhurst Hospital": "NR",
-  "Fort Hamilton": "NR",
-  "Gouverneur Healthcare": "NR",
+  "Elmhurst Hospital": "60-90",
+  "Fort Hamilton": "30-60",
+  "Gouverneur Healthcare": "30-60",
   "Greenbelt Recreation Center": "NR",
   "Harlem Hospital Center": "0-30",
   "Highbridge Pool": "NR",
@@ -52,6 +52,6 @@
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Windsor Park Library": "NR",
-  "Woodhull Medical Center": "NR",
+  "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
