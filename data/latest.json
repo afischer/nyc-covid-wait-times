@@ -4,7 +4,7 @@
   "57 Cleveland Place": "30-60",
   "Bathgate Contract Postal Station": "NR",
   "Bay Ridge 5th Avenue": "60-90",
-  "Beach 39th": "30-60",
+  "Beach 39th": "0-30",
   "Bellevue Hospital": "0-30",
   "Belvis DTC": "90-120",
   "Bensonhurst 14th Avenue": "30-60",
@@ -51,7 +51,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "30-60",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "60-90",
   "Woodside Houses": "NR"
 }
