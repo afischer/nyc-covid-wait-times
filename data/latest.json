@@ -1,7 +1,7 @@
 {
   "196 Albany": "0-30",
   "4101 White Plains Road": "0-30",
-  "57 Cleveland Place": "0",
+  "57 Cleveland Place": "0-30",
   "Bathgate Contract Postal Station": "NR",
   "Bay Ridge 5th Avenue": "30-60",
   "Beach 39th": "60-90",
@@ -26,7 +26,7 @@
   "JFK Airport": "NR",
   "Jacobi Medical Center": "NR",
   "Jonathan Williams Houses": "30-60",
-  "Kew Gardens": "30-60",
+  "Kew Gardens": "0-30",
   "Kings County Hospital": "0",
   "LaGuardia Airport": "NR",
   "Lefferts": "90-120",
