@@ -24,7 +24,7 @@
   "JFK Airport": "0-30",
   "Jacobi Medical Center": "NR",
   "Jonathan Williams Houses": "0-30",
-  "Kew Gardens": "30-60",
+  "Kew Gardens": "90-120",
   "Kings County Hospital": "30-60",
   "LaGuardia Airport": "NR",
   "Lefferts": "0-30",
@@ -50,6 +50,6 @@
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Windsor Park Library": "0-30",
-  "Woodhull Medical Center": "60-90",
+  "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
