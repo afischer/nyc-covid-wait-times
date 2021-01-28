@@ -16,7 +16,7 @@
   "Edward Grant": "NR",
   "Elmhurst Hospital": "60-90",
   "Fort Hamilton": "0-30",
-  "Gouverneur Healthcare": "0-30",
+  "Gouverneur Healthcare": "30-60",
   "Greenbelt Recreation Center": "0-30",
   "Harlem Hospital Center": "30-60",
   "Highbridge Pool": "30-60",
@@ -33,7 +33,7 @@
   "Metropolitan Hospital": "NR",
   "Midwood": "0-30",
   "Morrisania DTC": "30-60",
-  "Mt. Loretto Sportsplex": "0-30",
+  "Mt. Loretto Sportsplex": "30-60",
   "North Central Bronx Hospital": "NR",
   "Northern Boulevard": "0",
   "Old Broadway": "0-30",
@@ -50,6 +50,6 @@
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Windsor Park Library": "30-60",
-  "Woodhull Medical Center": "0-30",
+  "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
