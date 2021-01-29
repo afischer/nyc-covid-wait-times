@@ -8,7 +8,7 @@
   "Belvis DTC": "0-30",
   "Bensonhurst 14th Avenue": "0",
   "Canarsie Municipal Lot": "NR",
-  "Co-op City Retail Space": "NR",
+  "Co-op City Retail Space": "30-60",
   "Coney Island Hospital": "NR",
   "Cumberland DTC": "NR",
   "Dyckman Clinica de Las Americas": "NR",
@@ -27,7 +27,7 @@
   "Kew Gardens": "0-30",
   "Kings County Hospital": "0-30",
   "LaGuardia Airport": "NR",
-  "Lefferts": "NR",
+  "Lefferts": "0-30",
   "Lincoln Medical Center": "30-60",
   "Mariners Harbor Library": "0",
   "Metropolitan Hospital": "0",
@@ -50,6 +50,6 @@
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Windsor Park Library": "0-30",
-  "Woodhull Medical Center": "60-90",
+  "Woodhull Medical Center": "0-30",
   "Woodside Houses": "NR"
 }
