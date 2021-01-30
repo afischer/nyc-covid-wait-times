@@ -27,7 +27,7 @@
   "Kew Gardens": "30-60",
   "Kings County Hospital": "0-30",
   "LaGuardia Airport": "NR",
-  "Lefferts": "NR",
+  "Lefferts": "0-30",
   "Lincoln Medical Center": "NR",
   "Mariners Harbor Library": "0-30",
   "Metropolitan Hospital": "NR",
@@ -36,7 +36,7 @@
   "Mt. Loretto Sportsplex": "NR",
   "North Central Bronx Hospital": "NR",
   "Northern Boulevard": "NR",
-  "Old Broadway": "NR",
+  "Old Broadway": "0",
   "Queens Hospital Center": "60-90",
   "Rain Boston Road Senior Center": "NR",
   "Red Hook Recreation Center": "NR",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "60-90",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
