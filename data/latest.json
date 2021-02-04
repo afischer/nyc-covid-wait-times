@@ -29,7 +29,7 @@
   "LaGuardia Airport": "NR",
   "Lefferts": "0",
   "Lincoln Medical Center": "0",
-  "Mariners Harbor Library": "0",
+  "Mariners Harbor Library": "0-30",
   "Metropolitan Hospital": "NR",
   "Midwood": "0-30",
   "Morrisania DTC": "NR",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "60-90",
-  "Woodhull Medical Center": "NR",
+  "Windsor Park Library": "0-30",
+  "Woodhull Medical Center": "0-30",
   "Woodside Houses": "NR"
 }
