@@ -16,9 +16,9 @@
   "Edward Grant": "NR",
   "Elmhurst Hospital": "60-90",
   "Fort Hamilton": "NR",
-  "Gouverneur Healthcare": "NR",
+  "Gouverneur Healthcare": "30-60",
   "Greenbelt Recreation Center": "NR",
-  "Harlem Hospital Center": "NR",
+  "Harlem Hospital Center": "0-30",
   "Highbridge Pool": "NR",
   "Ida G. Israel CHC": "NR",
   "JFK Airport": "0-30",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "0",
-  "Windsor Park Library": "NR",
-  "Woodhull Medical Center": "NR",
+  "Windsor Park Library": "0-30",
+  "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
