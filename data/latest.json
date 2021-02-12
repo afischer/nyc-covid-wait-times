@@ -33,7 +33,7 @@
   "Metropolitan Hospital": "NR",
   "Midwood": "0-30",
   "Morrisania DTC": "NR",
-  "Mt. Loretto Sportsplex": "0-30",
+  "Mt. Loretto Sportsplex": "30-60",
   "North Central Bronx Hospital": "NR",
   "Northern Boulevard": "0",
   "Old Broadway": "0-30",
@@ -50,6 +50,6 @@
   "Tremont CHC": "NR",
   "Vanderbilt": "0-30",
   "Windsor Park Library": "0-30",
-  "Woodhull Medical Center": "NR",
+  "Woodhull Medical Center": "60-90",
   "Woodside Houses": "NR"
 }
