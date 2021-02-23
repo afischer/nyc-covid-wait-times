@@ -13,7 +13,7 @@
   "Coney Island Hospital": "NR",
   "Cumberland DTC": "30-60",
   "Dyckman Clinica de Las Americas": "NR",
-  "East New York DTC": "NR",
+  "East New York DTC": "0-30",
   "Edward Grant": "NR",
   "Elmhurst Hospital": "NR",
   "Fort Hamilton": "0",
@@ -50,7 +50,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
