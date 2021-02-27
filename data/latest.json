@@ -1,7 +1,7 @@
 {
   "196 Albany": "NR",
   "4101 White Plains Road": "NR",
-  "57 Cleveland Place": "NR",
+  "57 Cleveland Place": "0",
   "Bay Ridge 5th Avenue": "0",
   "Beach 39th": "NR",
   "Bellevue Hospital": "NR",
@@ -13,7 +13,7 @@
   "Coney Island Hospital": "NR",
   "Cumberland DTC": "NR",
   "Dyckman Clinica de Las Americas": "NR",
-  "East New York DTC": "NR",
+  "East New York DTC": "0-30",
   "Edward Grant": "NR",
   "Elmhurst Hospital": "NR",
   "Fort Hamilton": "NR",
