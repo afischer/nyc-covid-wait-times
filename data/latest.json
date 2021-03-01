@@ -1,7 +1,7 @@
 {
   "196 Albany": "0",
   "4101 White Plains Road": "NR",
-  "57 Cleveland Place": "0",
+  "57 Cleveland Place": "0-30",
   "Bay Ridge 5th Avenue": "0",
   "Beach 39th": "NR",
   "Bellevue Hospital": "30-60",
@@ -20,7 +20,7 @@
   "Gouverneur Healthcare": "0-30",
   "Greenbelt Recreation Center": "0-30",
   "Harlem Hospital Center": "0-30",
-  "Highbridge Pool": "0-30",
+  "Highbridge Pool": "30-60",
   "Ida G. Israel CHC": "NR",
   "JFK Airport": "NR",
   "Jacobi Medical Center": "NR",
