@@ -1,7 +1,7 @@
 {
   "196 Albany": "0-30",
   "4101 White Plains Road": "NR",
-  "57 Cleveland Place": "NR",
+  "57 Cleveland Place": "0",
   "Bay Ridge 5th Avenue": "NR",
   "Beach 39th": "NR",
   "Bellevue Hospital": "30-60",
@@ -45,11 +45,11 @@
   "St. George Ferry Terminal": "NR",
   "St. James Recreation Center": "NR",
   "St. Nicholas CHC": "NR",
-  "Starret City": "NR",
+  "Starret City": "0",
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
