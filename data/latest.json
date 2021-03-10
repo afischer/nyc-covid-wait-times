@@ -26,7 +26,7 @@
   "Jacobi Medical Center": "NR",
   "Jonathan Williams Houses": "0-30",
   "Kew Gardens": "0",
-  "Kings County Hospital": "0-30",
+  "Kings County Hospital": "30-60",
   "LaGuardia Airport": "NR",
   "Lefferts": "0-30",
   "Lincoln Medical Center": "0",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "0-30",
+  "Windsor Park Library": "30-60",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
