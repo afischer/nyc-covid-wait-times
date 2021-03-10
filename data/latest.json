@@ -16,7 +16,7 @@
   "East New York DTC": "0-30",
   "Edward Grant": "NR",
   "Elmhurst Hospital": "NR",
-  "Fort Hamilton": "NR",
+  "Fort Hamilton": "0-30",
   "Gouverneur Healthcare": "0-30",
   "Greenbelt Recreation Center": "0-30",
   "Harlem Hospital Center": "0",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "30-60",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
