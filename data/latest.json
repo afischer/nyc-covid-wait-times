@@ -20,7 +20,7 @@
   "Gouverneur Healthcare": "NR",
   "Greenbelt Recreation Center": "NR",
   "Harlem Hospital Center": "0",
-  "Highbridge Pool": "NR",
+  "Highbridge Pool": "0-30",
   "Ida G. Israel CHC": "NR",
   "JFK Airport": "0-30",
   "Jacobi Medical Center": "NR",
@@ -30,7 +30,7 @@
   "LaGuardia Airport": "NR",
   "Lefferts": "0-30",
   "Lincoln Medical Center": "NR",
-  "Mariners Harbor Library": "NR",
+  "Mariners Harbor Library": "0",
   "Metropolitan Hospital": "NR",
   "Midwood": "NR",
   "Morrisania DTC": "NR",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "30-60",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
