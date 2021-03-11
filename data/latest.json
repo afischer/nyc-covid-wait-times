@@ -6,7 +6,7 @@
   "Beach 39th": "NR",
   "Bellevue Hospital": "30-60",
   "Belvis DTC": "0-30",
-  "Bensonhurst 14th Avenue": "30-60",
+  "Bensonhurst 14th Avenue": "0",
   "CU Homecrest": "0-30",
   "Canarsie Municipal Lot": "0",
   "Co-op City Retail Space": "0-30",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "30-60",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
