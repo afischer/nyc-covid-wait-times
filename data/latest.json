@@ -29,7 +29,7 @@
   "Kings County Hospital": "0-30",
   "LaGuardia Airport": "NR",
   "Lefferts": "0-30",
-  "Lincoln Medical Center": "0",
+  "Lincoln Medical Center": "0-30",
   "Mariners Harbor Library": "0",
   "Metropolitan Hospital": "NR",
   "Midwood": "0",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "0-30",
+  "Windsor Park Library": "30-60",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
