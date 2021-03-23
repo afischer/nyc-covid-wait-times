@@ -2,7 +2,7 @@
   "196 Albany": "0",
   "4101 White Plains Road": "NR",
   "57 Cleveland Place": "0",
-  "Bay Ridge 5th Avenue": "0",
+  "Bay Ridge 5th Avenue": "0-30",
   "Beach 39th": "0-30",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "0-30",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "0-30",
+  "Windsor Park Library": "30-60",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
