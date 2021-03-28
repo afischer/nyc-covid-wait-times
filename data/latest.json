@@ -1,13 +1,13 @@
 {
   "196 Albany": "NR",
   "4101 White Plains Road": "NR",
-  "57 Cleveland Place": "NR",
+  "57 Cleveland Place": "0",
   "Bay Ridge 5th Avenue": "0",
   "Beach 39th": "0-30",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "0-30",
   "Bensonhurst 14th Avenue": "0-30",
-  "CU Homecrest": "NR",
+  "CU Homecrest": "0",
   "Canarsie Municipal Lot": "0",
   "Co-op City Retail Space": "NR",
   "Coney Island Hospital": "NR",
@@ -17,7 +17,7 @@
   "Edward Grant": "NR",
   "Elmhurst Hospital": "NR",
   "Fort Hamilton": "NR",
-  "Gouverneur Healthcare": "NR",
+  "Gouverneur Healthcare": "0",
   "Greenbelt Recreation Center": "0-30",
   "Harlem Hospital Center": "0",
   "Highbridge Pool": "NR",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
