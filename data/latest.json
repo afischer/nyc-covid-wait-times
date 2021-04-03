@@ -12,7 +12,7 @@
   "Co-op City Retail Space": "NR",
   "Coney Island Hospital": "NR",
   "Cumberland DTC": "NR",
-  "Dyckman Clinica de Las Americas": "0-30",
+  "Dyckman Clinica de Las Americas": "0",
   "East New York DTC": "NR",
   "Edward Grant": "NR",
   "Elmhurst Hospital": "NR",
@@ -39,7 +39,7 @@
   "Old Broadway": "0-30",
   "Queens Hospital Center": "NR",
   "Rain Boston Road Senior Center": "0",
-  "Red Hook Recreation Center": "NR",
+  "Red Hook Recreation Center": "0",
   "Sorreno Recreation Center": "NR",
   "St. Albans": "0-30",
   "St. George Ferry Terminal": "30-60",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "0-30",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
