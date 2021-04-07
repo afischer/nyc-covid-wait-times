@@ -4,7 +4,7 @@
   "57 Cleveland Place": "0",
   "Bay Ridge 5th Avenue": "0",
   "Beach 39th": "0-30",
-  "Bellevue Hospital": "0-30",
+  "Bellevue Hospital": "0",
   "Belvis DTC": "NR",
   "Bensonhurst 14th Avenue": "NR",
   "CU Homecrest": "0",
@@ -32,7 +32,7 @@
   "Lincoln Medical Center": "0",
   "Mariners Harbor Library": "0",
   "Metropolitan Hospital": "NR",
-  "Midwood": "NR",
+  "Midwood": "0-30",
   "Morrisania DTC": "30-60",
   "North Central Bronx Hospital": "NR",
   "Northern Boulevard": "NR",
@@ -49,7 +49,7 @@
   "Sydenham Health Center": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "0-30",
-  "Windsor Park Library": "30-60",
+  "Windsor Park Library": "0-30",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
