@@ -1,11 +1,11 @@
 {
-  "196 Albany": "NR",
+  "196 Albany": "0",
   "4101 White Plains Road": "NR",
   "57 Cleveland Place": "0",
   "Bay Ridge 5th Avenue": "0",
   "Beach 39th": "0",
   "Bellevue Hospital": "0-30",
-  "Belvis DTC": "NR",
+  "Belvis DTC": "0-30",
   "Bensonhurst 14th Avenue": "0",
   "CU Homecrest": "0",
   "Canarsie Municipal Lot": "0",
@@ -50,7 +50,7 @@
   "Times Square": "NR",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "30-60",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
