@@ -26,10 +26,10 @@
   "Jonathan Williams Houses": "NR",
   "Kew Gardens": "0-30",
   "Kings County Hospital": "0-30",
-  "LaGuardia Airport": "NR",
+  "LaGuardia Airport": "0",
   "Lefferts": "0",
   "Lincoln Medical Center": "NR",
-  "Mariners Harbor Library": "0",
+  "Mariners Harbor Library": "0-30",
   "Metropolitan Hospital": "NR",
   "Midwood": "NR",
   "Morrisania DTC": "NR",
@@ -49,7 +49,7 @@
   "Times Square": "0",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "NR",
+  "Windsor Park Library": "0",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
