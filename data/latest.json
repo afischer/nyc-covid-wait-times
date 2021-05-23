@@ -2,7 +2,7 @@
   "196 Albany": "NR",
   "4101 White Plains Road": "0",
   "57 Cleveland Place": "0",
-  "Bay Ridge 5th Avenue": "0-30",
+  "Bay Ridge 5th Avenue": "0",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "NR",
   "Bensonhurst 14th Avenue": "NR",
@@ -24,8 +24,8 @@
   "JFK Airport": "NR",
   "Jacobi Medical Center": "NR",
   "Jonathan Williams Houses": "NR",
-  "Kew Gardens": "NR",
-  "Kings County Hospital": "0-30",
+  "Kew Gardens": "0",
+  "Kings County Hospital": "0",
   "LaGuardia Airport": "NR",
   "Lefferts": "NR",
   "Lincoln Medical Center": "NR",
@@ -49,7 +49,7 @@
   "Times Square": "30-60",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Windsor Park Library": "0-30",
+  "Windsor Park Library": "0",
   "Woodhull Medical Center": "NR",
   "Woodside Houses": "NR"
 }
