@@ -1,7 +1,7 @@
 {
   "196 Albany": "NR",
   "4101 White Plains Road": "NR",
-  "57 Cleveland Place": "NR",
+  "57 Cleveland Place": "0",
   "Bay Ridge 5th Avenue": "0",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "NR",
@@ -46,7 +46,7 @@
   "St. Nicholas CHC": "NR",
   "Starret City": "NR",
   "Sydenham Health Center": "NR",
-  "Times Square": "0-30",
+  "Times Square": "0",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Windsor Park Library": "NR",
