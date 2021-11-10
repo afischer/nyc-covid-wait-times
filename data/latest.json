@@ -1,7 +1,7 @@
 {
   "196 Albany": "NR",
   "4101 White Plains Road": "NR",
-  "57 Cleveland Place": "NR",
+  "57 Cleveland Place": "0",
   "Bay Ridge 5th Avenue": "NR",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "NR",
@@ -25,7 +25,7 @@
   "Jacobi Medical Center": "NR",
   "Jonathan Williams Houses": "NR",
   "Kew Gardens": "NR",
-  "Kings County Hospital": "NR",
+  "Kings County Hospital": "0-30",
   "LaGuardia Airport": "NR",
   "Lefferts": "NR",
   "Lincoln Medical Center": "NR",
