@@ -1,6 +1,6 @@
 {
   "57 Cleveland Place": "0-30",
-  "Bay Ridge 5th Avenue": "0-30",
+  "Bay Ridge 5th Avenue": "30-60",
   "Bellevue Hospital": "30-60",
   "Belvis DTC": "NR",
   "Bensonhurst 14th Avenue": "30-60",
@@ -25,7 +25,7 @@
   "St. George Ferry Terminal": "0-30",
   "Starret City": "0-30",
   "Sydenham Health Center": "NR",
-  "Times Square": "0",
+  "Times Square": "30-60",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
   "Woodhull Medical Center": "NR",
