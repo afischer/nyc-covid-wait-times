@@ -1,5 +1,5 @@
 {
-  "57 Cleveland Place": "30-60",
+  "57 Cleveland Place": "0-30",
   "Bay Ridge 5th Avenue": "30-60",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "0-30",
@@ -7,9 +7,9 @@
   "CU Homecrest": "NR",
   "Coney Island Hospital": "NR",
   "Cumberland DTC": "60-90",
-  "East New York DTC": "30-60",
+  "East New York DTC": "0-30",
   "Elmhurst Hospital": "NR",
-  "Fort Hamilton": "0-30",
+  "Fort Hamilton": "30-60",
   "Gouverneur Healthcare": "30-60",
   "Greenbelt Recreation Center": "30-60",
   "Harlem Hospital Center": "30-60",
