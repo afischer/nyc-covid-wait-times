@@ -9,7 +9,7 @@
   "Cumberland DTC": "NR",
   "East New York DTC": "0-30",
   "Elmhurst Hospital": "NR",
-  "Fort Hamilton": "90-120",
+  "Fort Hamilton": ">120",
   "Gouverneur Healthcare": "30-60",
   "Greenbelt Recreation Center": "NR",
   "Harlem Hospital Center": "0-30",
@@ -28,6 +28,6 @@
   "Times Square": "30-60",
   "Tremont CHC": "NR",
   "Vanderbilt": "NR",
-  "Woodhull Medical Center": "NR",
+  "Woodhull Medical Center": "90-120",
   "Woodside Houses": "NR"
 }
