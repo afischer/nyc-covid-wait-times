@@ -16,7 +16,7 @@
   "Jacobi Medical Center": "30-60",
   "Kings County Hospital": "30-60",
   "Lincoln Medical Center": ">120",
-  "Metropolitan Hospital": "90-120",
+  "Metropolitan Hospital": ">120",
   "Midwood": "60-90",
   "Morrisania DTC": "30-60",
   "North Central Bronx Hospital": "NR",
@@ -28,6 +28,6 @@
   "Times Square": "60-90",
   "Tremont CHC": "0-30",
   "Vanderbilt": "NR",
-  "Woodhull Medical Center": "0-30",
+  "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
 }
