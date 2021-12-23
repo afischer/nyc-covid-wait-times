@@ -1,5 +1,5 @@
 {
-  "57 Cleveland Place": "60-90",
+  "57 Cleveland Place": "30-60",
   "Bay Ridge 5th Avenue": "60-90",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "30-60",
@@ -7,7 +7,7 @@
   "CU Homecrest": "NR",
   "Coney Island Hospital": "30-60",
   "Cumberland DTC": "30-60",
-  "East New York DTC": "90-120",
+  "East New York DTC": "30-60",
   "Elmhurst Hospital": "90-120",
   "Fort Hamilton": "90-120",
   "Gouverneur Healthcare": "60-90",
@@ -26,7 +26,7 @@
   "Starret City": "60-90",
   "Sydenham Health Center": "NR",
   "Times Square": "60-90",
-  "Tremont CHC": "60-90",
+  "Tremont CHC": "0-30",
   "Vanderbilt": "NR",
   "Woodhull Medical Center": "0-30",
   "Woodside Houses": "NR"
