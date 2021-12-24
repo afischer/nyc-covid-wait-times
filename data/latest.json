@@ -7,7 +7,7 @@
   "CU Homecrest": "NR",
   "Coney Island Hospital": "NR",
   "Cumberland DTC": "NR",
-  "East New York DTC": "30-60",
+  "East New York DTC": "0-30",
   "Elmhurst Hospital": ">120",
   "Fort Hamilton": "60-90",
   "Gouverneur Healthcare": "NR",
@@ -26,7 +26,7 @@
   "Starret City": "60-90",
   "Sydenham Health Center": "NR",
   "Times Square": "60-90",
-  "Tremont CHC": "30-60",
+  "Tremont CHC": "0-30",
   "Vanderbilt": "NR",
   "Woodhull Medical Center": "30-60",
   "Woodside Houses": "NR"
