@@ -1,6 +1,6 @@
 {
   "57 Cleveland Place": "NR",
-  "Bay Ridge 5th Avenue": "NR",
+  "Bay Ridge 5th Avenue": "60-90",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "NR",
   "Bensonhurst 14th Avenue": "30-60",
@@ -12,7 +12,7 @@
   "Fort Hamilton": "NR",
   "Gouverneur Healthcare": "NR",
   "Greenbelt Recreation Center": "NR",
-  "Harlem Hospital Center": "NR",
+  "Harlem Hospital Center": ">120",
   "Jacobi Medical Center": "NR",
   "Kings County Hospital": "NR",
   "Lincoln Medical Center": "NR",
