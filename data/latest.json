@@ -1,5 +1,5 @@
 {
-  "57 Cleveland Place": "30-60",
+  "57 Cleveland Place": "0-30",
   "Bay Ridge 5th Avenue": "30-60",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "30-60",
@@ -28,6 +28,6 @@
   "Times Square": "30-60",
   "Tremont CHC": "0",
   "Vanderbilt": "NR",
-  "Woodhull Medical Center": "NR",
+  "Woodhull Medical Center": "0-30",
   "Woodside Houses": "NR"
 }
