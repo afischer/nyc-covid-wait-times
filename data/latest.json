@@ -1,5 +1,5 @@
 {
-  "57 Cleveland Place": "NR",
+  "57 Cleveland Place": "0-30",
   "Bay Ridge 5th Avenue": "30-60",
   "Bellevue Hospital": "NR",
   "Belvis DTC": "0",
@@ -20,9 +20,9 @@
   "Midwood": "NR",
   "Morrisania DTC": "NR",
   "North Central Bronx Hospital": "NR",
-  "Queens Hospital Center": "NR",
+  "Queens Hospital Center": "0",
   "Sorreno Recreation Center": "NR",
-  "St. George Ferry Terminal": "NR",
+  "St. George Ferry Terminal": "30-60",
   "Starret City": "NR",
   "Sydenham Health Center": "NR",
   "Times Square": "30-60",
